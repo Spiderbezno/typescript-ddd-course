@@ -7,7 +7,7 @@ export class Course {
   readonly name: CourseName;
   readonly duration: CourseDuration;
 
-  constructor({ id, name, duration } : {id: CourseId, name: CourseName, duration: CourseDuration }) {
+  constructor({ id, name, duration }: { id: CourseId, name: CourseName, duration: CourseDuration }) {
     this.id = id;
     this.name = name;
     this.duration = duration;

@@ -26,7 +26,7 @@ describe('CourseCreator', () => {
       duration: new CourseDuration(duration)
     });
 
-    await creator.run({id, name, duration});
+    await creator.run({ id, name, duration });
 
     repository.assertLastSavedCourseIs(course);
   });
