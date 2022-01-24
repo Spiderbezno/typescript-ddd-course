@@ -1,8 +1,8 @@
 import { CourseCreator } from '../../../../../src/Contexts/Mooc/Courses/application/CourseCreator';
 import { CourseMother } from '../domain/CourseMother';
+import { CourseNameLengthExceeded } from '../../../../../src/Contexts/Mooc/Courses/domain/CourseNameLengthExceeded';
 import { CourseRepositoryMock } from '../__mocks__/CourseRepositoryMock';
 import { CreateCourseRequestMother } from './CreateCourseRequestMother';
-import { CourseNameLengthExceeded } from '../../../../../src/Contexts/Mooc/Courses/domain/CourseNameLengthExceeded';
 
 let repository: CourseRepositoryMock;
 let creator: CourseCreator;
